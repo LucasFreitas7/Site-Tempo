@@ -1,0 +1,40 @@
+.navapp{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    background-color: #222;
+}
+.navapp div{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #222;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+    
+    list-style: none;
+
+}
+.item{
+    margin-right: 1em;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: rgba(229, 255, 0, 0.534);
+}
+
+.img{
+    display: flex;
+    max-width: 60%;
+    max-height: 60%;
+}
